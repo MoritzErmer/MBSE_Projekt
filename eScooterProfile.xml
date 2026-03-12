@@ -87,6 +87,26 @@
       </propertySet>
       <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="e6d67add-9f47-413b-98e8-3bb89e4706f3"/>
     </prototypes>
+    <prototypes type="systemcomposer.profile.Prototype" uuid="4b91dc0b-f87c-4be7-a2ac-b1a52bb81c88">
+      <appliesTo>Component</appliesTo>
+      <componentHeaderColor type="systemcomposer.profile.RGBValueStruct">
+        <BLUE>32</BLUE>
+        <GREEN>177</GREEN>
+        <RED>237</RED>
+      </componentHeaderColor>
+      <p_Name>Logical</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="f14d7c71-833a-4290-b3b3-7a655bd150a7"/>
+      <metaAttributes type="mf.zero.meta.AttributeMap" uuid="fcfe97d6-727f-4b2f-88ff-bc3b8e3fe599"/>
+      <parentProxy type="systemcomposer.services.proxy.ProxySource" uuid="43a8cc92-6860-4032-8e28-cd708cb36d30">
+        <Proxy type="systemcomposer.services.proxy.BidirectionalProxy" uuid="d80aed13-d9fb-4cc3-8b54-6347a635fc89"/>
+        <realElement type="systemcomposer.profile.Prototype" uuid="4b91dc0b-f87c-4be7-a2ac-b1a52bb81c88"/>
+      </parentProxy>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="976f0d96-61cd-4da9-ba47-90ded4097068">
+        <p_Name>Logical</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="07bfa681-cc5b-4c08-92d9-7b9d304b23d5"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="edd38b3d-5f3a-4894-af92-9d2277f78556"/>
+    </prototypes>
     <prototypes type="systemcomposer.profile.Prototype" uuid="0ec971df-976c-4140-b3d1-b391cc23a1e7">
       <p_Name>eScooterComponent</p_Name>
       <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="3ad2a003-6212-4f13-bdf9-0e81ae4ef322"/>
@@ -227,10 +247,12 @@
   <systemcomposer.services.proxy.ModelResolver type="systemcomposer.services.proxy.ModelResolver" uuid="91b002d5-1ac7-4ac3-a752-a84c1eacff08">
     <Proxies type="systemcomposer.services.proxy.BidirectionalProxy" uuid="d80aed13-d9fb-4cc3-8b54-6347a635fc89">
       <Source type="systemcomposer.services.proxy.ProxySource" uuid="ea9e091c-2d65-4b90-8507-6317696c5b9a"/>
+      <Source type="systemcomposer.services.proxy.ProxySource" uuid="43a8cc92-6860-4032-8e28-cd708cb36d30"/>
       <TargetId>aad064f2-ce0f-4050-bc86-bb8205c4f5ec</TargetId>
     </Proxies>
     <modelType>PROFILE_MODEL</modelType>
     <URI>eScooterProfile</URI>
   </systemcomposer.services.proxy.ModelResolver>
+  <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="91cf1e3e-be1a-4775-986c-7fd81fb31cc9"/>
   <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="ed41fe9e-5da4-4ef5-a802-5219620d7347"/>
 </MF0>
